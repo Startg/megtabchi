@@ -279,7 +279,7 @@ function process(msg)
 				
 —------—
 
-Help >> @To_My_Amigos ]]
+Help >> @sudo_star ]]
 return tdcli.sendMessage(msg.chat_id_, 0, 1, text1, 1, "")
 	  
       elseif text_:match("^[!/#](remsudo) (%d+)") then
