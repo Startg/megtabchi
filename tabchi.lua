@@ -279,7 +279,7 @@ function process(msg)
 				
 —------—
 
-Help >> @sudo_star ]]
+Help >> @To_My_Amigos ]]
 return tdcli.sendMessage(msg.chat_id_, 0, 1, text1, 1, "")
 	  
       elseif text_:match("^[!/#](remsudo) (%d+)") then
@@ -515,7 +515,7 @@ return tdcli.sendMessage(msg.chat_id_, 0, 1, text1, 1, "")
       local query = tostring(gps) .. " " .. tostring(sgps) .. " " .. tostring(pvs) .. " " .. tostring(links) .. " " .. tostring(sudo) .. " " .. tostring(contacts)
           local text = [[
 		  
-Normal Stats By : @To_My_Amigos
+power By : @sudo_star
 
 Users : ]] .. tostring(pvs) .. [[
 
